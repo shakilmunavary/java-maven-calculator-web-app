@@ -1,37 +1,37 @@
 node {
-   def mvnHome = tool 'M3'
+
 
    stage('Checkout Code') { 
       git 'https://github.com/maping/java-maven-calculator-web-app.git'
    }
    stage('JUnit Test') {
       if (isUnix()) {
-         sh "'${mvnHome}/bin/mvn' clean test"
+         sh "mvn clean test"
       } else {
-         bat(/"${mvnHome}\bin\mvn" clean test/)
+         bat(/"mvn" clean test/)
       }
    }
    stage('Integration Test') {
       if (isUnix()) {
-         sh "'${mvnHome}/bin/mvn' integration-test"
+         sh "'mvn' integration-test"
       } else {
-         bat(/"${mvnHome}\bin\mvn" integration-test/)
+         bat(/"mvn" integration-test/)
       }
    }
  /*
    stage('Performance Test') {
       if (isUnix()) {
-         sh "'${mvnHome}/bin/mvn' cargo:start verify cargo:stop"
+         sh "'mvn' cargo:start verify cargo:stop"
       } else {
-         bat(/"${mvnHome}\bin\mvn" cargo:start verify cargo:stop/)
+         bat(/"mvn" cargo:start verify cargo:stop/)
       }
    }
   */
   stage('Performance Test') {
       if (isUnix()) {
-         sh "'${mvnHome}/bin/mvn' verify"
+         sh "'mvn' verify"
       } else {
-         bat(/"${mvnHome}\bin\mvn" verify/)
+         bat(/"mvn" verify/)
       }
    }
    stage('Deploy') {
