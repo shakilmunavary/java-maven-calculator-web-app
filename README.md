@@ -1,4 +1,4 @@
-# A Java Maven Calculator Web App
+# A Java Maven Calculator Web Application
 A Java calculator web app, build by Maven, CI/CD by Jenkins.
 
 ![image](realworld-pipeline-flow.png)
