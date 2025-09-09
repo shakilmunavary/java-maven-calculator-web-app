@@ -1,7 +1,4 @@
 
-
-
-
-Sameple fileaaa
+ameple fileaaa
 Test file
 Ttes
