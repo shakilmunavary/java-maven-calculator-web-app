@@ -3,5 +3,5 @@ projectKey=ai-test-code-quality_ai-codereview
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.67006
 dashboardUrl=https://sonarcloud.io/dashboard?id=ai-test-code-quality_ai-codereview
-ceTaskId=AZkuMmBJ_6y91e0Gv5wK
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZkuMmBJ_6y91e0Gv5wK
+ceTaskId=AZkuNDkkxT_6fWbVZNzW
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZkuNDkkxT_6fWbVZNzW
