@@ -1,0 +1,232 @@
+
+1.0"ai-test-code-quality_ai-codereviewJavaFrontend"1757409855401*java2.BÜ
+B
+=src/main/java/com/qianhong/calculator/CalculatorResponse.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+com.qianhong.calculator7
+/
+*com.qianhong.calculator.CalculatorResponse9
+
+class10
+
+access11
+
+public12
+
+simple-name13
+
+CalculatorResponse14
+3
+-com.qianhong.calculator.CalculatorResponse._x16
+
+field17
+
+	protected18
+
+_x19
+3
+-com.qianhong.calculator.CalculatorResponse._y21
+
+_y22
+8
+2com.qianhong.calculator.CalculatorResponse._result24
+
+_result25
+6
+0com.qianhong.calculator.CalculatorResponse._time27
+
+_time28
+=
+7com.qianhong.calculator.CalculatorResponse#<init>(III)V30
+
+method31
+
+calls32
+
+
+references33
+8
+2com.qianhong.calculator.CalculatorResponse#getX()I35
+
+
+getX36
+8
+2com.qianhong.calculator.CalculatorResponse#getY()I38
+
+
+getY39
+=
+7com.qianhong.calculator.CalculatorResponse#getResult()I41
+
+	getResult42
+L
+Fcom.qianhong.calculator.CalculatorResponse#getTime()Ljava/lang/String;44
+
+getTime45J
+
+1
+12
+
+
+3
+4Z
+
+5	
+576j˜
+A
+26;
+262717 *
+1 (28:5B
+
+
+11
+18
+
+
+13
+28
+;
+86
+8910 *
+1 ( :5B
+
+
+11
+12
+
+
+13
+14
+A
+23;
+232417 *
+1 (28:5B
+
+
+11
+18
+
+
+13
+25
+A
+43;
+434431 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+45
+A
+34;
+343531 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+36
+A
+37;
+373831 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+39
+A
+29;
+293031 *
+1
+ 
+(28:5B
+
+
+11
+12
+
+
+13
+14
+A
+40;
+404131 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+42
+A
+15;
+151617 *
+1 (28:5B
+
+
+11
+18
+
+
+13
+19
+A
+20;
+202117 *
+1 (28:5B
+
+
+11
+18
+
+
+13
+22rò
+
+29832*
+1
+ 
+(
+
+291533*
+1	 (
+
+292033*
+1	 (
+
+292333*
+1	 (
+
+292633*
+1	 (
+
+341533*
+1 (
+
+372033*
+1 (
+
+402333*
+1 (
+
+432633*
+1 (

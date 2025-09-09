@@ -1,0 +1,309 @@
+
+1.0"ai-test-code-quality_ai-codereviewJavaFrontend"1757409855325*java2.B¾
+E
+@src/test/java/com/qianhong/calculator/CalculatorServiceTest.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+com.qianhong.calculator7
+2
+-com.qianhong.calculator.CalculatorServiceTest9
+
+class10
+
+access11
+
+public12
+
+simple-name13
+
+CalculatorServiceTest14
+?
+9com.qianhong.calculator.CalculatorServiceTest#testPing()V16
+
+method17
+
+testPing18
+
+
+Test20
+
+unknown21
+
+annotated by22
+"
+Recovered#typeBindingLTest;024
+
+
+uses25
+/
+)com.qianhong.calculator.CalculatorService27
+
+
+references28
+H
+Bcom.qianhong.calculator.CalculatorService#ping()Ljava/lang/String;30
+
+calls31
+>
+8com.qianhong.calculator.CalculatorServiceTest#testAdd()V33
+
+testAdd34
+0
+*com.qianhong.calculator.CalculatorResponse36
+=
+7com.qianhong.calculator.CalculatorResponse#getResult()I38
+
+returns39
+c
+]com.qianhong.calculator.CalculatorService#Add(II)Lcom/qianhong/calculator/CalculatorResponse;41
+>
+8com.qianhong.calculator.CalculatorServiceTest#testSub()V43
+
+testSub44
+c
+]com.qianhong.calculator.CalculatorService#Sub(II)Lcom/qianhong/calculator/CalculatorResponse;46
+>
+8com.qianhong.calculator.CalculatorServiceTest#testMul()V48
+
+testMul49
+c
+]com.qianhong.calculator.CalculatorService#Mul(II)Lcom/qianhong/calculator/CalculatorResponse;51
+>
+8com.qianhong.calculator.CalculatorServiceTest#testDiv()V53
+
+testDiv54
+c
+]com.qianhong.calculator.CalculatorService#Div(II)Lcom/qianhong/calculator/CalculatorResponse;56J
+
+1
+12
+
+
+3
+4Z
+
+5	
+576jÔ
+A
+15;
+151617 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+18
+A
+52;
+525317 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+54
+
+37
+373821
+
+40
+404121
+A
+42;
+424317 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+44
+
+45
+454621
+A
+32;
+323317 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+34
+
+50
+505121
+
+26
+262721
+
+29
+293021
+
+35
+353621
+
+19
+192021
+A
+47;
+474817 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+49
+
+55
+555621
+
+23
+232421
+;
+86
+8910 *
+1	 	(#:5B
+
+
+11
+12
+
+
+13
+14rç
+
+151922*
+1 (
+
+152325*
+1 (
+
+
+152628*
+1 (
+
+152931*
+1, (0
+
+152631*
+1 ()
+
+321922*
+1 (
+
+322325*
+1 (
+
+
+323528*
+1 (
+
+323731*
+1= (F
+
+323539*
+1 (
+
+322628*
+1 (
+
+324031*
+12 (5
+
+322631*
+1 (/
+
+421922*
+1 (
+
+422325*
+1 (
+
+
+423528*
+1 (
+
+423731*
+1< (E
+
+423539*
+1 (
+
+422628*
+1 (
+
+424531*
+11 (4
+
+422631*
+1 (.
+
+471922*
+1 (
+
+472325*
+1 (
+
+
+473528*
+1 (
+
+473731*
+1= (F
+
+473539*
+1 (
+
+472628*
+1 (
+
+475031*
+12 (5
+
+472631*
+1 (/
+
+521922*
+1 (
+
+522325*
+1 (
+
+
+523528*
+1! !(
+
+523731*
+1!= !(F
+
+523539*
+1! !(
+
+522628*
+1! !(
+
+525531*
+1!1 !(4
+
+522631*
+1! !(.
