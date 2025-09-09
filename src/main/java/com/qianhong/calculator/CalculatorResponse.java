@@ -2,7 +2,6 @@ package com.qianhong.calculator;
 
 import java.util.Date;
 public class CalculatorResponse {
-
     int _x;
     int _y;
     int _result;
