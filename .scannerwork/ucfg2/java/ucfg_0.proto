@@ -1,17 +1,17 @@
 
 Bcom.qianhong.calculator.CalculatorService#ping()Ljava/lang/String;
-…/home/AI-SDP-PLATFORM/apple_code_review_ai/java-maven-calculator-web-app/src/main/java/com/qianhong/calculator/CalculatorService.java ("1*õ
-1 (>20
-E (I
+…/home/AI-SDP-PLATFORM/apple_code_review_ai/java-maven-calculator-web-app/src/main/java/com/qianhong/calculator/CalculatorService.java ("1*õ
+1 (>20
+E (I
 %0java.util.Date"java.util.Date`
 ^
-A (K
+A (K
 %1"java.util.Date#<init>()V*2
 
 __unknown_file (
 
 %0java.util.Date’
-A (V
+A (V
 %2java.lang.String"+java.util.Date#toString()Ljava/lang/String;*2
 
 __unknown_file (
@@ -19,14 +19,14 @@ Bcom.qianhong.calculator.CalculatorService#ping()Ljava/lang/String;
 %0java.util.Date2
 toString()”
 ‘
- (V
+ (V
 %3java.lang.String"__concat*=
- (>1/
+ (>1/
 -Welcome to Java Maven Calculator Web App!!!\n*$
-A (V
+A (V
 
 %2java.lang.String"$
- (W
+ (W
 
 %3java.lang.StringB-+
 )com.qianhong.calculator.CalculatorServiceH
