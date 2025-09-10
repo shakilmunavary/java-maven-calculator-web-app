@@ -1,3 +1,91 @@
+**AI Powered Pre Git Push Validations**
+
+
+
+🧠 Building an AI-Powered Code Review Pipeline with SonarCloud and Azure OpenAI
+Modern software development demands more than just clean syntax—it requires secure, maintainable, and high-quality code. In this blog, I’ll walk you through how I built an intelligent code review pipeline that combines static analysis with AI-powered insights using SonarCloud, Azure OpenAI, and GitHub.
+
+📌 Overview
+This pipeline automatically reviews Java code during every push to GitHub. It compiles the project, runs a SonarCloud scan, and then uses Azure OpenAI to analyze both the changed Java files and the SonarCloud findings. The result? A smart, automated gatekeeper that blocks pushes if critical issues are found.
+
+🧱 Architecture Diagram
+Here’s a visual representation of the pipeline:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7ec4b16d-8dc9-40ab-95ca-8b9b29cdbac6" />
+
+
+🔄 Workflow Breakdown
+1. Git Push
+The process begins when a developer pushes code to the GitHub repository.
+
+2. Compile Java Project
+Using Maven, the pipeline compiles the Java project to ensure there are no build-time errors.
+
+3. Run SonarCloud Scan
+SonarCloud performs static code analysis, checking for bugs, vulnerabilities, code smells, and test coverage.
+
+4. Fetch Changed Java Files
+The pipeline identifies which .java files were modified in the latest commit.
+
+5. Fetch SonarCloud Findings
+Unresolved issues from SonarCloud are retrieved using its public API.
+
+6. Analyze with Azure OpenAI
+Two AI reviews are performed:
+
+Changed Java Files: Azure OpenAI analyzes the raw code for security flaws, bad practices, and quality issues.
+
+SonarCloud Findings: The AI interprets the scan results and suggests remediations.
+
+7. Display AI Recommendations
+The pipeline prints two tables:
+
+One for AI feedback on the changed Java files
+
+One for AI feedback on SonarCloud findings
+
+8. Push Decision
+If any “High” severity issues are found, the push is blocked. Otherwise, it proceeds safely.
+
+🧠 Why Use AI in Code Review?
+Traditional static analysis tools are great at flagging issues—but they don’t explain them. By integrating Azure OpenAI, we get:
+
+Context-aware recommendations
+
+Human-like reasoning about code quality
+
+Actionable insights for remediation
+
+This makes the review process smarter, faster, and more developer-friendly.
+
+🛠️ Technologies Used
+Tool	Purpose
+GitHub	Source control and trigger for pipeline
+Maven	Java project compilation
+SonarCloud	Static code analysis
+Azure OpenAI	AI-powered code review and feedback
+Python	Orchestration of the entire workflow
+Rich	Beautiful CLI output with tables & panels
+🚀 What’s Next?
+This pipeline is just the beginning. You can extend it to:
+
+Post AI feedback as GitHub PR comments
+
+Auto-create GitHub issues for critical findings
+
+Send alerts to Slack or Teams
+
+Track historical trends in code quality
+
+📚 Final Thoughts
+By combining static analysis with AI, we’re not just catching bugs—we’re building smarter, more resilient software. This pipeline turns every push into a learning opportunity, helping developers write better code with every commit.
+
+If you’d like to try this out or contribute, check out the GitHub repository.
+
+
+
+
+
+
 # A Java Maven Calculator Web Application
 A Java calculator web app, build by Maven, CI/CD by Jenkins.
 
